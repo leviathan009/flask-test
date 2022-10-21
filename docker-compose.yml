@@ -1,6 +1,8 @@
 version: "3.9"
 services:
   web:
-    image: hello-world
+    image: nginx
     ports: 
       - 3000:80
+    restart:
+      unless-stopped
