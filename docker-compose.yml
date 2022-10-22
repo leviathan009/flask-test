@@ -4,5 +4,4 @@ services:
     image: nginx
     ports: 
       - 3000:80
-    restart:
-      unless-stopped
+    restart: unless-stopped
